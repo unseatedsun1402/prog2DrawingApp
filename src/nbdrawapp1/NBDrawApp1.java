@@ -169,19 +169,70 @@ public class NBDrawApp1 extends JFrame
         ;
     } // end draw method   
 
-    class mouseMotionListener implements mouseMotionListener{
-      public void mouseMoved(){
-        ;
+    class canvasMotionListener implements MouseMotionListener{
+
+      @Override
+      public void mouseDragged(MouseEvent e) {
+        // TODO Auto-generated method stub
+        
       }
 
-      public void mouseDragged(){
-        ;
+      @Override
+      public void mouseMoved(MouseEvent e) {
+        // TODO Auto-generated method stub
+        
       }
     }
 
-    class mouseEventListener implements mouseListener{
-      ;
+    class mouseEventListener implements MouseInputListener{
+
+      @Override
+      public void mouseClicked(MouseEvent e) {
+        // TODO Auto-generated method stub
+        
+      }
+
+      @Override
+      public void mousePressed(MouseEvent e) {
+        // TODO Auto-generated method stub
+        
+      }
+
+      @Override
+      public void mouseReleased(MouseEvent e) {
+        // TODO Auto-generated method stub
+        
+      }
+
+      @Override
+      public void mouseEntered(MouseEvent e) {
+        // TODO Auto-generated method stub
+        
+
+
+        
+      }
+
+      @Override
+      public void mouseExited(MouseEvent e) {
+        // TODO Auto-generated method stub
+        
+      }
+
+      @Override
+      public void mouseDragged(MouseEvent e) {
+        // TODO Auto-generated method stub
+        
+      }
+
+      @Override
+      public void mouseMoved(MouseEvent e) {
+        // TODO Auto-generated method stub
+        
+      }
     }
+
+
     public static void main(String args[])
     {
         NBDrawApp1 NBDrawApp1Instance = new NBDrawApp1();
