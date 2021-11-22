@@ -208,9 +208,6 @@ public class NBDrawApp1 extends JFrame
       public void mouseEntered(MouseEvent e) {
         // TODO Auto-generated method stub
         
-
-
-        
       }
 
       @Override
