@@ -108,7 +108,25 @@ public class NBDrawApp1 extends JFrame
           drawingToolsPanel.setPreferredSize(new Dimension(CONTROL_PANEL_WIDTH - 20, 140));
           drawingToolsPanel.setLayout(new GridLayout(0, 1));
           drawingToolsPanel.setBorder(new TitledBorder(new EtchedBorder(), "Drawing Tools"));
+
+          lineRadioButton      = new JRadioButton();
+          ovalRadioButton      = new JRadioButton();
+          freehandRadioButton  = new JRadioButton();
+          rectangleRadioButton = new JRadioButton();
+
+          drawingToolsPanel.add(lineRadioButton);
+          drawingToolsPanel.add(ovalRadioButton);
+          drawingToolsPanel.add(freehandRadioButton);
+          drawingToolsPanel.add(rectangleRadioButton);
+
+          lineRadioButton.add(new JLabel("     Line Tool"));
+          ovalRadioButton.add(new JLabel("     Oval Tool"));
+          freehandRadioButton.add(new JLabel("     Freehand Tool"));
+          rectangleRadioButton.add(new JLabel("     Rectangle Tool"));
+
         controlPanel.add(drawingToolsPanel);
+
+
         
         // Freehand trace size slider
         JPanel freehandSliderPanel = new JPanel();
